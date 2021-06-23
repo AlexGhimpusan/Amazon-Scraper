@@ -33,7 +33,7 @@ def sendMail():
     server.starttls()
     server.ehlo()
 
-    server.login('ghimpusanindiratransexpress@gmail.com', 'alex.smecherul007')
+    server.login('ghimpusanindiratransexpress@gmail.com', '****')
 
     subject = 'Price fell down!'
     body = 'Check the amazon link: https://www.amazon.de/EliteDisplay-E233-58-42-inch-Monitor/dp/B079347GWN/ref=sr_1_1_sspa?crid=3A0EZ9R1VA4U7&dchild=1&keywords=monitor+27+zoll&qid=1624376227&sprefix=monitor%2Caps%2C199&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyMVVJNlExM0pZMUNJJmVuY3J5cHRlZElkPUEwODE0Njg2M1FYTE5XR05VVVBQJmVuY3J5cHRlZEFkSWQ9QTEwMjQzNzMxNUJCWDJLWlZFWFkyJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=='
